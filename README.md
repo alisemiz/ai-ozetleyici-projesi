@@ -41,6 +41,7 @@ Bu projenin temel amacı, modern bir web yığını (React + Flask) kullanarak u
 ---
 ## Görüntüler
 <img width="1165" height="750" alt="Ekran görüntüsü 2025-10-31 230049" src="https://github.com/user-attachments/assets/cf74db7c-e77c-412b-858d-9efbe71fe4e1" />
+<img width="1002" height="720" alt="Ekran görüntüsü 2025-10-31 231828" src="https://github.com/user-attachments/assets/a80e6113-342a-4037-9acd-fe0a41951ebe" />
 
 ## 🧠 Model Detayları
 
