@@ -1,0 +1,106 @@
+/* frontend/src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8; /* Açık gri arka plan */
+}
+
+header {
+  width: 100%;
+  background: #2c3e50; /* Koyu mavi-gri */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+header p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 90%;
+  height: 300px; /* Büyük metin alanı */
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #dfe6e9;
+  font-size: 1rem;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  resize: vertical;
+  margin-bottom: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+textarea:focus {
+  outline: none;
+  border-color: #0984e3; /* Mavi vurgu */
+  box-shadow: 0 0 8px rgba(9, 132, 227, 0.3);
+}
+
+textarea.summary-output {
+  background-color: #ffffff; /* Özet kutusu beyaz */
+  height: 200px;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #0984e3; /* Ana Mavi */
+  border: none;
+  border-radius: 50px; /* Yuvarlak buton */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+  background-color: #0a73c4;
+  transform: translateY(-2px);
+}
+button:disabled {
+  background-color: #b2bec3; /* Devre dışı (yükleniyor) */
+  cursor: not-allowed;
+  transform: translateY(0);
+}
+
+.message {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+.loading {
+  background-color: #dfe6e9;
+  color: #2d3436;
+}
+.error {
+  background-color: #fab1a0; /* Hata (kırmızı) */
+  color: #d63031;
+}
