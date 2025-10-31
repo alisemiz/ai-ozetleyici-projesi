@@ -1,4 +1,16 @@
-# Logs
+# Python / Backend
+# Sanal ortamı (venv) ve önbelleği YÜKLEME
+/backend/venv/
+__pycache__/
+*.pyc
+
+# Node.js / React (Frontend)
+# 'node_modules' klasörünü ve build çıktılarını YÜKLEME
+/frontend/node_modules/
+/frontend/dist/
+/frontend/dist-ssr/
+
+# Log dosyaları
 logs
 *.log
 npm-debug.log*
@@ -7,12 +19,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Çevresel değişkenler
 *.local
 
-# Editor directories and files
+# OS & Editor dosyaları
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -22,3 +32,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db
